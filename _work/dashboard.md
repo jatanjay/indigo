@@ -1,6 +1,6 @@
 ---
-title: Real-time Dashboard for LoRaWAN node devices with AWS Backend
-externalLink: jatanjay.github.io/CorpusGenius/
-order: 4
----
-a tool to generate complete lyrical corpus of an artist using genius.com api
+title: real-time dashboard for lorawan nodes with aws
+externalLink: https://jatanjay.github.io/LoRaWAN_realtime_dashboard/
+order: 12
+--- 
+scalable aws cloud architecture for a real-time dashboard for iot devices
