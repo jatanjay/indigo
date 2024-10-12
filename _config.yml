@@ -10,7 +10,7 @@ bio: Software Engineer @ QuireTech <br> Computer Engineer & Computational Lingui
 external-image: false
 picture: assets/images/profile.jpg
 
-# your site color theme, true for dark theme, 
+# your site color theme, true for dark theme,
 # false to light theme, auto to switch with system.
 dark-theme: auto
 
@@ -18,7 +18,7 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/resume/JatanPandyaResume_m.pdf
+resume-url: assets/resume/Jatan_Pandya_Resume.pdf
 
 url: https://jatanjay.github.io
 # your url: https://USERNAME.github.io
@@ -26,7 +26,7 @@ url: https://jatanjay.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'G-NE4G7352P1'
+analytics-google: "G-NE4G7352P1"
 
 # if you don't want comments in your posts, leave categories empty
 # disqus:
@@ -42,17 +42,16 @@ github: jatanjay
 email: jatanjay212@gmail.com
 
 authors:
-  jatanpandya:
-    name: Jatan Pandya
-    bio: Software Engineer @ QuireTech | Computer Engineer & Computational Linguist
-    external-image: false
-    picture: assets/images/profile.jpg
-    
-collections:
-  work:
-    output: true
-    permalink: /:collection/:name
+    jatanpandya:
+        name: Jatan Pandya
+        bio: Software Engineer @ QuireTech | Computer Engineer & Computational Linguist
+        external-image: false
+        picture: assets/images/profile.jpg
 
+collections:
+    work:
+        output: true
+        permalink: /:collection/:name
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -86,32 +85,25 @@ animation: true
 
 # add default values to specific pages or layouts
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+    - scope:
+          path: "" # an empty string here means all files in the project
+          layout: "post"
+      values:
+          # setting all post to not hidden by default,
+          # can be overridden in the front matter for a specific post
+          hidden: false
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
 
 compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
+    ignore:
+        envs:
+            - development
+            - stage
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]
 # incremental: true
