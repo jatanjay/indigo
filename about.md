@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Software engineer at <a href="https://www.quiretech.net/">QuireTech LLC</a>, currently developing full-stack applications and designing aws architectures for IoT devices.</p>
+<p>Embedded Firmware Engineer at <a href="https://www.quiretech.net/">QuireTech LLC</a>, currently developing  C/C++ firmware (nrf,sam, stm) full-stack applications and designing aws architectures for IoT devices.</p>
 
 <p><a href="https://www.umass.edu/">University of Massachusetts - Amherst</a> graduate with a degree in Computer Engineering and Computational Linguistics.</p>
 
